@@ -1,0 +1,55 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(230, 252, 255);
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.input-container{
+  display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+	gap: 30px; 
+}
+
+.title {
+	font-size: 30px;
+	margin-bottom: 30px;
+  text-align: center;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.btn {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn-add {
+	background-color: #4caf50;
+	color: #ffffff;
+  width: 50%;
+}
+
+.btn-delete {
+	background-color: #f44336;
+	color: #ffffff;
+  width: 30%;
+}
+
+.btn:hover {
+	background-color: #e5e51278;
+}
+
